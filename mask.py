@@ -29,8 +29,8 @@ print(count)
 COLORS = [[0, 0, 255], [0, 255, 0],[0, 0, 255],[0, 0, 255]]
 
 #derive the paths to the YOLO weights and model configuration
-weightsPath_mask = os.path.sep.join([config.MODEL_PATH, "yolov4_face_mask.weights"])
-configPath_mask = os.path.sep.join([config.MODEL_PATH, "yolov4-obj.cfg"])
+weightsPath_mask = os.path.sep.join([config.MODEL_PATH, "2021s1_face_mask.weights"])
+configPath_mask = os.path.sep.join([config.MODEL_PATH, "2021s1_face_mask.cfg"])
 
 #load our YOLO object detector trained on COCO dataset (80 classes)
 print("[INFO] loading YOLO from disk...")
