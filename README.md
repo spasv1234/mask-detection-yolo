@@ -7,6 +7,6 @@ The model should have 4 classes and they should be in this order
 3) face_with_mask_worn_incorrectly
 4) face_with_other_covering
 
-It can also be used with 2 classes in this order but will require changing the config
+It can also be used with 2 classes by swapping out the included cfg file 
 1) face_no_mask
 2) face_with_mask
